@@ -1,0 +1,59 @@
+{
+    "breaking_news": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Breaking News",
+        "element": {
+            "heading": "text",
+            "news_details_link": "textarea",
+            "modal":true
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Footer",
+        "content": {
+            "heading": "text",
+            "about": "textarea",
+            "copyright": "text"
+        }
+    },
+    "policy_pages": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "details": "textarea-nic",
+            "modal": false
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "element": {
+            "title": "text",
+            "social_icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "title_1": "text",
+            "short_details_1": "text",
+            "title_2": "text",
+            "short_details_2": "text",
+            "email": "text",
+            "phone": "text",
+            "address": "text",
+            "latitude": "text",
+            "longitude": "text"
+        }
+    }
+}
